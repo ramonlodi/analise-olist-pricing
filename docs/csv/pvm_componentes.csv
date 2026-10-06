@@ -1,0 +1,39 @@
+grupo,ordem_grupo,componente,ordem_componente,valor
+Total geral,0,Receita 2017,1,2993456.13
+Total geral,0,Preço,2,-344988.75
+Total geral,0,Volume,3,4245880.06
+Total geral,0,Mix,4,323777.68
+Total geral,0,Receita 2018,5,7218125.12
+Beleza Saude,1,Preço,2,-24961.7
+Beleza Saude,1,Volume,3,345429.23
+Beleza Saude,1,Mix,4,191735.27
+Relogios Presentes,2,Preço,2,-181904.22
+Relogios Presentes,2,Volume,3,285308.85
+Relogios Presentes,2,Mix,4,383312.71
+Esporte Lazer,3,Preço,2,32106.16
+Esporte Lazer,3,Volume,3,307417.85
+Esporte Lazer,3,Mix,4,-39082.08
+Informatica Acessorios,4,Preço,2,-102057.44
+Informatica Acessorios,4,Volume,3,304448.9
+Informatica Acessorios,4,Mix,4,79246.56
+Cama Mesa Banho,5,Preço,2,-45563.12
+Cama Mesa Banho,5,Volume,3,360923.39
+Cama Mesa Banho,5,Mix,4,-37446.24
+Utilidades Domesticas,6,Preço,2,82419.68
+Utilidades Domesticas,6,Volume,3,180904.44
+Utilidades Domesticas,6,Mix,4,964.8
+Automotivo,7,Preço,2,-74203.3
+Automotivo,7,Volume,3,177660.31
+Automotivo,7,Mix,4,114583.81
+Moveis Decoracao,8,Preço,2,64296.01
+Moveis Decoracao,8,Volume,3,242358.47
+Moveis Decoracao,8,Mix,4,-95863.5
+Bebes,9,Preço,2,53124.2
+Bebes,9,Volume,3,96453.77
+Bebes,9,Mix,4,33039.56
+Construcao Ferramentas Construcao,10,Preço,2,44746.89
+Construcao Ferramentas Construcao,10,Volume,3,3661.78
+Construcao Ferramentas Construcao,10,Mix,4,71896.45
+Outras categorias,11,Preço,2,-192991.91
+Outras categorias,11,Volume,3,1941313.06
+Outras categorias,11,Mix,4,-378609.67
