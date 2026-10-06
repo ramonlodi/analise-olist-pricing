@@ -13,7 +13,7 @@ SELECT COUNT(*) AS pedidos_sem_cliente FROM `analise-olist-pricing.raw.orders` A
 LEFT JOIN `analise-olist-pricing.raw.customers` AS c ON o.customer_id = c.customer_id
 WHERE c.customer_id IS NULL;
 
--- Produtos sem categoria
+-- Itens entregues sem categoria
 SELECT COUNT(*) AS itens_entregues_sem_categoria FROM `analise-olist-pricing.raw.order_items` AS oi
 JOIN `analise-olist-pricing.raw.orders` AS o ON oi.order_id = o.order_id
 JOIN `analise-olist-pricing.raw.products` AS p ON oi.product_id = p.product_id

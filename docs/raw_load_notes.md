@@ -28,9 +28,11 @@ As contagens conferem com o dataset original e servem de base para a reconcilia�
   idioma original do dataset e do público da análise.
 - `olist_geolocation_dataset`: fora do escopo (análise por estado, não por coordenada).
 - `olist_order_reviews_dataset`: fora do escopo (o foco é preço, volume e mix).
+- `sellers` e `order_payments`: carregadas no raw, mas fora do escopo (a análise não
+  corta por vendedor nem por forma de pagamento).
 
 ## Esquema
-- Datas de `orders` (ex.: `order_purchase_timestamp`) vieram como `TIMESTAMP`. [confirme]
+- Datas de `orders` (ex.: `order_purchase_timestamp`) vieram como `TIMESTAMP`.
 - `price` e `freight_value` em `order_items` vieram como `FLOAT`. [confirme]
 - Particionamento e clusterização: não aplicados na raw (tabelas pequenas, sem ganho).
 

@@ -2,9 +2,6 @@
 datasets/*.csv
 datasets/*.zip
 
-# Exceção
-!datasets/pvm_categoria.csv
-
 # Arquivos de sistema
 .DS_Store
 Thumbs.db

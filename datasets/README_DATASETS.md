@@ -39,19 +39,21 @@
 - **Colunas principais:** `customer_state`, `customer_city`.
 - **Uso:** estado do cliente, para os cortes regionais.
 
+## Tabelas carregadas, mas não utilizadas
+
 ### sellers (3.095 linhas)
 - **Granularidade:** um registro por vendedor.
 - **Chave:** `seller_id`.
 - **Colunas principais:** `seller_state`, `seller_city`.
-- **Uso:** [corte opcional por vendedor, ou "carregada, ainda não utilizada"].
+- **Uso:** carregada no raw, mas fora do escopo (a análise não corta por vendedor).
 
 ### order_payments (103.886 linhas)
 - **Granularidade:** um registro por forma de pagamento de um pedido.
 - **Chave:** `order_id` + `payment_sequential`.
 - **Colunas principais:** `payment_type`, `payment_installments`, `payment_value`.
-- **Uso:** [corte opcional por tipo de pagamento, ou "carregada, ainda não utilizada"].
+- **Uso:** carregada no raw, mas fora do escopo (a análise não corta por forma de pagamento).
 
-## Tabelas não utilizadas
+## Arquivos não carregados
 
 | Arquivo | Motivo |
 |---|---|
