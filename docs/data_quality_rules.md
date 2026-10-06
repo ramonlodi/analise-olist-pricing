@@ -20,7 +20,7 @@ sellers e order_payments ficaram fora do escopo.
 
 ## Joins
 A auditoria encontrou 0 itens sem pedido, 0 pedidos sem cliente e 0 itens sem produto.
-Por isso os joins da silver são INNER JOIN: não descartam nenhuma linha. A única
+Por isso os joins da silver são INNER JOIN: não descartam nenhuma linha, com exceção do LEFT JOIN em `products`. A única
 exclusão intencional é o filtro de pedidos entregues.
 
 ## Limitações

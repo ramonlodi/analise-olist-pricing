@@ -3,7 +3,7 @@
 **Pergunta de negócio:** onde a receita cresce ou cai por categoria, quanto dessa variação vem de preço, volume ou mix, e o que isso sugere para decisões de preço e portfólio?
 
 **Recorte:** jan–ago/2017 vs jan–ago/2018, pedidos entregues, receita = preço dos itens (sem frete).
-**Fonte dos números:** `gold.pvm_categoria` (exportada em `docs/csv/pvm_categoria.csv`). As consultas que reproduzem cada número estão em `sql/06_insights_validacao.sql`.
+**Fonte dos números:** `gold.pvm_categoria` (exportada em `docs/csv/pvm_categoria.csv`). As consultas que reproduzem cada número estão em `sql/06_validacao_insights.sql`.
 
 ---
 
@@ -123,5 +123,4 @@ As recomendações são **hipóteses a testar**, não conclusões. Os dados são
 - **Só pedidos entregues.** Itens de pedidos não entregues (2.453) ficam fora, por decisão.
 - **Categoria nula.** 610 produtos (1,85%) estão sem categoria e aparecem como "Sem categoria". Isso representa cerca de 1% da receita de 2018.
 - **Base confiável.** A análise de preço × volume considera só as 31 de 74 categorias com ≥100 unidades em jan–ago/2017. Telefonia Fixa (preço +294%, 100 unidades) fica fora da escala do gráfico.
-- **Datas em UTC.** Um pedido tarde da noite pode cair no dia seguinte.
 - **Estado.** O recorte por estado existe no Gold e no Looker Studio, mas o PVM não foi decomposto por estado.

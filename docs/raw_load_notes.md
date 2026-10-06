@@ -33,7 +33,7 @@ As contagens conferem com o dataset original e servem de base para a reconcilia�
 
 ## Esquema
 - Datas de `orders` (ex.: `order_purchase_timestamp`) vieram como `TIMESTAMP`.
-- `price` e `freight_value` em `order_items` vieram como `FLOAT`. [confirme]
+- `price` e `freight_value` em `order_items` vieram como `FLOAT`.
 - Particionamento e clusterização: não aplicados na raw (tabelas pequenas, sem ganho).
 
 ## Exploração inicial
